@@ -1,11 +1,12 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
 }
 .color{
-    color: orange;
+    color: rgb(255, 255, 255);
 }
 section{
     display: flex;
@@ -27,5 +28,29 @@ section{
     font-weight: 800;
     padding: 10px 40px;
     border-radius: 10px;
+}
+.top{
+    background-image: url(images/b-image.jpg);
+    small-image{
+        width: 100%;
+    }
+}
+.image{
+    width: 40%;
+    padding: 2%;
+}
+.small-image{
+    width: 100%;
+}
+.upwork{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(70, 60, 5));
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
 
+}
+.mmiddle{
+    background-image: url(images/bimage.jpg);
+    background-repeat: no-repeat;
 }
