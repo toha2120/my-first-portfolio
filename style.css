@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .color{
     color: rgb(255, 255, 255);
 }
-section{
+.flexible-container{
     display: flex;
 }
 .text{
@@ -53,4 +56,16 @@ section{
 .mmiddle{
     background-image: url(images/bimage.jpg);
     background-repeat: no-repeat;
+}
+.exparinces-itme{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 10px;
+    padding-left: 10px;
+}
+
+footer p{
+    text-align: center;
 }
